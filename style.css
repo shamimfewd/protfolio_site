@@ -82,3 +82,102 @@ nav a {
   padding-right: 1rem;
   height: 500px;
 }
+
+/* style for main */
+
+main {
+  max-width: 71.25rem;
+  margin: 0 auto;
+}
+
+.about_me {
+  text-align: center;
+  margin-top: 5rem;
+  padding: 5rem;
+  background-color: #FAEBD7;
+}
+
+
+.about_me h2{
+  margin-bottom: 1rem;
+}
+
+.about_me p{
+  max-width: 50rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.about_info_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/* what i do section */
+
+.what_I_do_container {
+  margin-top: 5rem;
+}
+
+.what_I_do_container h2{
+ text-align: center;
+ margin-bottom: 1rem;
+}
+
+.what_I_do_container p{
+  max-width: 50rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+ }
+
+ .skill_content {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-around;
+ }
+
+ .skill {
+  padding: 2rem;
+  margin-right: 2rem;
+  border-radius: .5rem;
+  background-color: #fff;
+  box-shadow: 3px 5px 3px 7px rgba(0, 0, 0, 0.047);
+ }
+
+ .skill img, h3{
+  margin-bottom: 1rem;
+ }
+
+
+ /* A summary of My Resume */
+ .summary_section {
+  margin-top: 5rem;
+ }
+
+.summary_button {
+  margin-left: 50%;
+
+  transform: translate(-50%);
+ }
+ 
+.summary_section h2{
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.summary_section hr{
+  max-width: 34rem;
+
+}
+
+ .summary_content{
+  display: flex;
+  margin: 0 auto;
+
+ }
+
+ .summary_content div{
+margin-bottom: 2rem;
+ }
+
