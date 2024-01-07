@@ -22,20 +22,20 @@
   color: #fff;
   font-size: 1.2rem;
   font-weight: 600;
-  padding: .5rem;
-
+  padding: 0.5rem;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #FFF8F3;
+  background-color: #fff8f3;
+  padding: 0 8rem;
 }
 
 nav > ul {
   display: flex;
-align-items: center;
+  align-items: center;
 }
 
 nav li {
@@ -46,12 +46,39 @@ nav a {
   color: #474747;
   font-size: 1.25rem;
   font-weight: 400;
-
-  
 }
 
 .mary {
   color: #181818;
   font-size: 2.8125rem;
   font-weight: 800;
+}
+
+/* banner styles */
+
+.banner {
+  background-color: antiquewhite;
+  display: flex;
+  padding-left: 8rem;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("images/header_bg.png"), url("images/developer.png");
+  background-position: bottom right, top left;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-size: 50% 80%, 5% 95%;
+  
+}
+
+.banner_text_content {
+  max-width: 500px;
+}
+
+.banner_para {
+  margin-bottom: 1rem;
+}
+
+.banner_image_men {
+  padding-right: 1rem;
+  height: 500px;
 }
